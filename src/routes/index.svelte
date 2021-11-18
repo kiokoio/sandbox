@@ -30,12 +30,9 @@
 </script>
 
 <section>
-	<div class="title">
-		{#if init}
-			<h1 style="font-size: 100px" transition:typewriter>evokko</h1>
-		{/if}
+	<div class="logo" style="height : 75%; ">
+		<Logo />
 	</div>
-	<Logo />
 </section>
 
 <style>
@@ -59,6 +56,15 @@
 		background: linear-gradient(135deg, #37ff3c, #3bbfff);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+	}
+
+	.logo {
+		position: relative;
+		width: 500px;
+		height: 700px;
+		min-height: 700px;
+
+		/* padding: 0 0 calc(100% * 495 / 2048) 0; */
 	}
 
 	.card-container {
