@@ -44,20 +44,6 @@
 		flex: 1;
 	}
 
-	h1 {
-		width: 100%;
-	}
-
-	.title {
-		position: relative;
-		width: 350px;
-		height: 250px;
-		/* padding: 0 0 calc(100% * 495 / 2048) 0; */
-		background: linear-gradient(135deg, #37ff3c, #3bbfff);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
-
 	.logo {
 		position: relative;
 		width: 500px;
@@ -65,22 +51,5 @@
 		min-height: 700px;
 
 		/* padding: 0 0 calc(100% * 495 / 2048) 0; */
-	}
-
-	.card-container {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		gap: 30px;
-	}
-
-	@media screen and (max-width: 900px) {
-		.card-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: space-between;
-			gap: 30px;
-		}
 	}
 </style>

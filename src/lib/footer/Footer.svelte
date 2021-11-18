@@ -15,10 +15,6 @@
 		flex: 0 0 auto;
 	}
 
-	footer p {
-		color: var(--pure-white);
-	}
-
 	/* @media (min-width: 480px) {
 		footer {
 			padding: 20px 0;
