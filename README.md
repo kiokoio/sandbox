@@ -1,4 +1,4 @@
-# Evokko website
+# Svelte sandbox
 
 This is based on [SvelteKit](https://kit.svelte.dev).
 
@@ -16,6 +16,3 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
-
-The app deployment currently lives on [Digital Ocean](https://www.digitalocean.com). Pushing to the main branch on github will deploy the new app using a docker image of the Node app.
